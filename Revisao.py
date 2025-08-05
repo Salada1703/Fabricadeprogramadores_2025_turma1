@@ -1,0 +1,38 @@
+a = 3
+b = 2
+c = 4
+d = 10
+print(a + b)         
+print(d - c)      
+print(a * c)         
+print(d // a)        
+print(d % a)        
+print(a ** b)        
+print((a + b) * c)    
+print(d / (a + b))   
+print((d - c) ** b)
+print("-----x------")
+print(a == b)   
+print(c != d)      
+print(a > b)     
+print(b < c)         
+print(d >= a)        
+print(c <= b)     
+print(a == 3)       
+print(d != 10)       
+print((d - c) < b)  
+print("-----x-------")
+print(a > b) and (c < d)       
+print(a == b) or (c > d)     
+print (not (a == b))           
+print(a != b) and (c == d)      
+print(a < b) or (c != d)        
+print (not (d < c))               
+print(a <= b) and (c >= d)     
+print(a == 3) or (b == 3)       
+print(d == 10) and (a != 3)    
+print("-----x------")
+def soma_multiplica(x, y, z):
+    print((x + y) * z)
+
+soma_multiplica(a, b, c) 
